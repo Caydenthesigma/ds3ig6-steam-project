@@ -8,9 +8,9 @@ basic.forever(function () {
     basic.pause(1000)
     if (Soil_moisture < 30) {
         music.play(music.stringPlayable("C5 B A A B C5 B A ", 169), music.PlaybackMode.UntilDone)
+        basic.showString("me failure! watering my plant now")
         basic.showIcon(IconNames.Skull)
         basic.clearScreen()
-        basic.showString("me failure! watering my plant now")
     } else {
         basic.showLeds(`
             . # . # .
