@@ -1,6 +1,6 @@
 {
     "name": "DS3IG6 STEAM project",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "",
     "dependencies": {
         "core": "*",
